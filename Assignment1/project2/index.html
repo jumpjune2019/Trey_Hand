@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Quiz Game</title>
+		<link rel='stylesheet' href='css/quiz.css' />
+		<script type='text/javascript' src='js/framework.js'></script>
+		<script type='text/javascript' src='js/app.js'></script>
+	</head>
+	<body>
+		<div id='gameContainer'>
+		<div id='gameBox'>
+			<div class='title-row'>
+				<div id='title'></div>
+				<div id='timer'>hh:mm:ss</div>
+				<div id='score'>Score Message Center</div>
+			</div>
+			<div id='buttonCon'>
+				<input type='button' class='button' id='startBtn' value='Play'>
+				<input type='button' class='button' id='undoBtn' value='Undo'>
+				<input type='button' class='button' id='endBtn' value='End'>
+				<input type='button' class='button' id='scoreBtn' value='Show Score'>
+				<input type='button' class='button' id='playAgainBtn' value='Play Again'>
+			</div>
+			<div id='term-column'>
+				<h4>Terms</h4>
+				<div class='dragTerm' id='drag1' unselectable='on' draggable=true fromID='1'>
+				</div>
+				<div class='dragTerm' id='drag2' unselectable='on' draggable=true fromID='2'>
+				</div>
+				<div class='dragTerm' id='drag3' unselectable='on' draggable=true fromID='3'>
+				</div>
+				<div class='dragTerm' id='drag4' unselectable='on' draggable=true fromID='4'>
+				</div>
+				<div class='dragTerm' id='drag5' unselectable='on' draggable=true fromID='5'>
+				</div>
+			</div>
+			<div id='def-container'>
+				<h4>Answers</h4>
+				<div id='drop-column'>
+					<div class='termDrop' id='drop1' unselectable="on" fromID=''></div>
+					<div class='termDrop' id='drop2' unselectable="on" fromID=''></div>
+					<div class='termDrop' id='drop3' unselectable="on" fromID=''></div>
+					<div class='termDrop' id='drop4' unselectable="on" fromID=''></div>
+					<div class='termDrop' id='drop5' unselectable="on" fromID=''></div>
+				</div>
+				<div id='def-column'>
+					<div class='termDef' id='term1'>
+					</div>
+					<div class='termDef' id='term2'>
+					</div>
+					<div class='termDef' id='term3'>
+					</div>
+					<div class='termDef' id='term4'>
+					</div>
+					<div class='termDef' id='term5'>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+		</div>
+	</body>
+</html>
