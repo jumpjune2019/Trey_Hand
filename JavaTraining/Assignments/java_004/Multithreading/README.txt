@@ -1,0 +1,1 @@
+This project was worked on by me, Trey Hand, and Joel. Joel worked on POCS and helped me formulate the logic in order to control the program, and I found the right places to put the pieces.
